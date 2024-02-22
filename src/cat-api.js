@@ -6,7 +6,7 @@ const cats = [];
 
 export const fetchBreeds = () => {
   axios.defaults.headers.common['x-api-key'] =
-    'llive_2gXZeTO4QxkVjYIeOt16J1eoABZswimOwdEjUEgCKRyt4MCSUoAfuLevzAgoHDrB';
+    'live_2gXZeTO4QxkVjYIeOt16J1eoABZswimOwdEjUEgCKRyt4MCSUoAfuLevzAgoHDrB';
 
   return axios
     .get('https://api.thecatapi.com/v1/breeds')
